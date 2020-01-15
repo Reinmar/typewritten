@@ -22,7 +22,7 @@ ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg_bold[blue]%} •|"
 ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_bold[blue]%} |•"
 
 # git status display
-local git_info='$(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
+local git_info='$(git_prompt_info)$(git_prompt_status)%{$reset_color%} %F{240}@$(git_prompt_short_sha)%{$reset_color%}'
 
 # current user and hostname
 local user_host='%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[yellow]%}%m %{$reset_color%}'
