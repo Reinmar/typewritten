@@ -31,7 +31,7 @@ local user_host='%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[yellow]%}%m %{$reset_co
 local prompt='%(?,%{$fg[blue]%}> ,%{$fg[red]%}> )'
 
 # current directory display
-local directory_path='%{$fg[magenta]%}%~'
+local directory_path='%{$fg[magenta]%} $(~/.oh-my-zsh/custom/themes/typewritten/get_trimmed_pwd.zsh)'
 
 # last command return code
 local return_code='%(?,,%{$fg[red]%} RC=%?%{$reset_color%})'
